@@ -1,4 +1,4 @@
-import ButtonK from "./button.jsx";
+import ButtonK from "./Button_key";
 
 const Keyboard = ({ agregarCaracter, borrarUltimo, borrarTodo, ejecucion }) => {
     return (

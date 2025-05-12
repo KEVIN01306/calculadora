@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import InputOperaciones from "../components/inputOperaciones.jsx";
-import Keyboard from "../components/keyboard.jsx";
+import InputOperaciones from "../components/Input_operaciones.jsx";
+import Keyboard from "../components/key_board.jsx";
 
 const Calculadora = () => {
     const [operacion, setOperacion] = useState(() => {
