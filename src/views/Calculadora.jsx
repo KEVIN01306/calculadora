@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import InputOpeaciones from "../components/inputOpraciones";
+import InputOperaciones from "../components/inputOperaciones";
 import Keyboard from "../components/keyboard";
 
 const Calculadora = () => {
@@ -43,7 +43,7 @@ const Calculadora = () => {
     return (
         <>
             <div className="container-calculadora">
-                <InputOpeaciones operacion={operacion} />
+                <InputOperaciones  operacion={operacion} />
                 <Keyboard
                     agregarCaracter={agregarCaracter}
                     borrarUltimo={borrarUltimo}

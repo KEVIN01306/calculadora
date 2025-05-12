@@ -1,6 +1,6 @@
 import { useRef, useEffect } from "react";
 
-const InputOpeaciones = ({ operacion }) =>{
+const InputOperaciones  = ({ operacion }) =>{
     const inputRef = useRef(null);
 
     useEffect(() => {
@@ -20,4 +20,4 @@ const InputOpeaciones = ({ operacion }) =>{
         </>
     )
 }
-export default InputOpeaciones;
+export default InputOperaciones ;
