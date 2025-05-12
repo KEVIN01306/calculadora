@@ -1,0 +1,26 @@
+.btn-keyboard{
+    width: var(--size-button);
+    height: var(--size-button);
+    border-radius: var(--border-r-button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--size-text-button-base);
+}
+
+.btn-primary{
+    background-color: var(--bg-color-base-t);
+}
+
+.btn-secondary{
+    background-color: var(--bg-color-gray-t);
+}
+
+
+.btn-especial{
+    background-color: var(--bg-color-orange-t);
+}
+
+.text-default{
+    color: var(--color-text);
+}

@@ -1,0 +1,24 @@
+:root{
+    ---bg: linear-gradient(to bottom right, #4B4F57, #1b1b1b);
+    --bg-color-base-t: #4B4F57;
+    --bg-color-orange-t: #FF9500;
+    --bg-color-gray-t: #5C6169;
+    --color-text: #ffff;
+    --size-button: 64px;
+    --border-r-button: 50%;
+    --size-text-button-base: 30px;
+    --size-text-result: 50px
+}
+
+body{
+    background: var(---bg);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
